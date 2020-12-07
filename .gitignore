@@ -2,6 +2,7 @@
 
 # compiled output
 /dist
+/dist-server
 /functions/dist
 /functions/dist-server
 /functions/node_modules

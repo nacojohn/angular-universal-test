@@ -19,7 +19,8 @@
     "firebase:serve": "firebase serve --only hosting,functions",
     "deploy": "firebase deploy",
     "start:local": "npm-run-all build-all move-index firebase:serve",
-    "build-and-deploy:prod": "npm-run-all build-all move-index deploy"
+    "build-and-deploy:prod": "npm-run-all build-all move-index deploy",
+    "build:ssr" : "ng build --prod && ng run angular-universal-course:server"
   },
   "private": true,
   "dependencies": {
